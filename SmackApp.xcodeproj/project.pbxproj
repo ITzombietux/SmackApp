@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		113F8BF7F1833589EA0FD3C8 /* Pods_SmackApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA1CDD025D176FA6FE93D5A /* Pods_SmackApp.framework */; };
+		932932A9227158C400AAFCE8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932A8227158C400AAFCE8 /* ChatViewController.swift */; };
+		932932AB227158D300AAFCE8 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932AA227158D300AAFCE8 /* ChannelViewController.swift */; };
 		939D216D2270479400474806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216C2270479400474806 /* AppDelegate.swift */; };
 		939D216F2270479400474806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216E2270479400474806 /* ViewController.swift */; };
 		939D21722270479400474806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D21702270479400474806 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		4BA1CDD025D176FA6FE93D5A /* Pods_SmackApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmackApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7088E09880D35BD04F2B5973 /* Pods-SmackApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmackApp/Pods-SmackApp.release.xcconfig"; sourceTree = "<group>"; };
+		932932A8227158C400AAFCE8 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		932932AA227158D300AAFCE8 /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		939D21692270479400474806 /* SmackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939D216C2270479400474806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		939D216E2270479400474806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		932932A7227158B600AAFCE8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				932932A8227158C400AAFCE8 /* ChatViewController.swift */,
+				932932AA227158D300AAFCE8 /* ChannelViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		939D21602270479400474806 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +99,7 @@
 		939D216B2270479400474806 /* SmackApp */ = {
 			isa = PBXGroup;
 			children = (
+				932932A7227158B600AAFCE8 /* Controllers */,
 				939D216C2270479400474806 /* AppDelegate.swift */,
 				939D216E2270479400474806 /* ViewController.swift */,
 				939D21702270479400474806 /* Main.storyboard */,
@@ -256,7 +270,9 @@
 			files = (
 				939D216F2270479400474806 /* ViewController.swift in Sources */,
 				939D216D2270479400474806 /* AppDelegate.swift in Sources */,
+				932932A9227158C400AAFCE8 /* ChatViewController.swift in Sources */,
 				939D21842270507100474806 /* SWRevealViewController.m in Sources */,
+				932932AB227158D300AAFCE8 /* ChannelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +431,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/SmackApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -436,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kr.zombietux.SmackApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/SmackApp-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
