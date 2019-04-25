@@ -14,6 +14,7 @@
 		932932BB227193FD00AAFCE8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932BA227193FD00AAFCE8 /* Constants.swift */; };
 		932932BD22719B4E00AAFCE8 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932BC22719B4E00AAFCE8 /* RoundButton.swift */; };
 		932932BF22719BA500AAFCE8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932BE22719BA500AAFCE8 /* LoginViewController.swift */; };
+		932932C12271B78900AAFCE8 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932C02271B78900AAFCE8 /* CreateAccountViewController.swift */; };
 		939D216D2270479400474806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216C2270479400474806 /* AppDelegate.swift */; };
 		939D216F2270479400474806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216E2270479400474806 /* ViewController.swift */; };
 		939D21722270479400474806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D21702270479400474806 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		932932BA227193FD00AAFCE8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		932932BC22719B4E00AAFCE8 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		932932BE22719BA500AAFCE8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		932932C02271B78900AAFCE8 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		939D21692270479400474806 /* SmackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939D216C2270479400474806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		939D216E2270479400474806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				932932A8227158C400AAFCE8 /* ChatViewController.swift */,
 				932932AA227158D300AAFCE8 /* ChannelViewController.swift */,
 				932932BE22719BA500AAFCE8 /* LoginViewController.swift */,
+				932932C02271B78900AAFCE8 /* CreateAccountViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932932C12271B78900AAFCE8 /* CreateAccountViewController.swift in Sources */,
 				932932BF22719BA500AAFCE8 /* LoginViewController.swift in Sources */,
 				932932BD22719B4E00AAFCE8 /* RoundButton.swift in Sources */,
 				939D216F2270479400474806 /* ViewController.swift in Sources */,
