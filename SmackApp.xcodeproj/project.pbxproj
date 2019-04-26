@@ -19,6 +19,8 @@
 		932932C62272C8D500AAFCE8 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932C52272C8D500AAFCE8 /* UserDataService.swift */; };
 		932932C82272DD6200AAFCE8 /* AvatarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932C72272DD6200AAFCE8 /* AvatarPickerViewController.swift */; };
 		932932CA2272DEF000AAFCE8 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932C92272DEF000AAFCE8 /* AvatarCell.swift */; };
+		932932CF2273052800AAFCE8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932CD2273052800AAFCE8 /* ProfileViewController.swift */; };
+		932932D02273052800AAFCE8 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932932CE2273052800AAFCE8 /* ProfileViewController.xib */; };
 		939D216D2270479400474806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216C2270479400474806 /* AppDelegate.swift */; };
 		939D216F2270479400474806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216E2270479400474806 /* ViewController.swift */; };
 		939D21722270479400474806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D21702270479400474806 /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 		932932C52272C8D500AAFCE8 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		932932C72272DD6200AAFCE8 /* AvatarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerViewController.swift; sourceTree = "<group>"; };
 		932932C92272DEF000AAFCE8 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		932932CD2273052800AAFCE8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		932932CE2273052800AAFCE8 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		939D21692270479400474806 /* SmackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939D216C2270479400474806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		939D216E2270479400474806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 				932932BE22719BA500AAFCE8 /* LoginViewController.swift */,
 				932932C02271B78900AAFCE8 /* CreateAccountViewController.swift */,
 				932932C72272DD6200AAFCE8 /* AvatarPickerViewController.swift */,
+				932932CD2273052800AAFCE8 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -124,6 +129,16 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		932932D12273054D00AAFCE8 /* Storyboard and Screens */ = {
+			isa = PBXGroup;
+			children = (
+				939D21752270479600474806 /* LaunchScreen.storyboard */,
+				939D21702270479400474806 /* Main.storyboard */,
+				932932CE2273052800AAFCE8 /* ProfileViewController.xib */,
+			);
+			path = "Storyboard and Screens";
+			sourceTree = "<group>";
+		};
 		939D21602270479400474806 = {
 			isa = PBXGroup;
 			children = (
@@ -147,15 +162,14 @@
 		939D216B2270479400474806 /* SmackApp */ = {
 			isa = PBXGroup;
 			children = (
+				932932D12273054D00AAFCE8 /* Storyboard and Screens */,
 				932932C22272911A00AAFCE8 /* Services */,
 				932932B9227193E600AAFCE8 /* Utillities */,
 				932932B622717FFA00AAFCE8 /* Views */,
 				932932A7227158B600AAFCE8 /* Controllers */,
 				939D216C2270479400474806 /* AppDelegate.swift */,
 				939D216E2270479400474806 /* ViewController.swift */,
-				939D21702270479400474806 /* Main.storyboard */,
 				939D21732270479600474806 /* Assets.xcassets */,
-				939D21752270479600474806 /* LaunchScreen.storyboard */,
 				939D21782270479600474806 /* Info.plist */,
 			);
 			path = SmackApp;
@@ -236,6 +250,7 @@
 				939D21772270479600474806 /* LaunchScreen.storyboard in Resources */,
 				939D21742270479600474806 /* Assets.xcassets in Resources */,
 				939D217F22704B4500474806 /* Podfile in Resources */,
+				932932D02273052800AAFCE8 /* ProfileViewController.xib in Resources */,
 				939D21722270479400474806 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +346,7 @@
 				932932A9227158C400AAFCE8 /* ChatViewController.swift in Sources */,
 				932932BB227193FD00AAFCE8 /* Constants.swift in Sources */,
 				939D21842270507100474806 /* SWRevealViewController.m in Sources */,
+				932932CF2273052800AAFCE8 /* ProfileViewController.swift in Sources */,
 				932932C82272DD6200AAFCE8 /* AvatarPickerViewController.swift in Sources */,
 				932932AB227158D300AAFCE8 /* ChannelViewController.swift in Sources */,
 			);
