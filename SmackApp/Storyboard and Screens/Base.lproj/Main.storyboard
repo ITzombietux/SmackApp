@@ -343,7 +343,6 @@
                                 <state key="normal" image="closeButton"/>
                                 <connections>
                                     <action selector="closePressed:" destination="wM1-Uf-WmW" eventType="touchUpInside" id="86C-et-4Ge"/>
-                                    <segue destination="6eX-qu-HJp" kind="unwind" unwindAction="prepareForUnwindWithSeuge:" id="y29-vh-6VP"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="shV-QI-tXg">
@@ -494,8 +493,8 @@
                         <outlet property="spinner" destination="QDc-j6-znX" id="Ioq-H8-U0P"/>
                         <outlet property="userImage" destination="eMn-EF-HEf" id="IIm-uZ-qe8"/>
                         <outlet property="usernameText" destination="GrN-71-gab" id="QRN-t9-Syd"/>
-                        <segue destination="6eX-qu-HJp" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="2Ar-pn-jqB"/>
                         <segue destination="qIU-Ua-Zjw" kind="show" identifier="toAvatarPicker" id="fza-Nr-EnW"/>
+                        <segue destination="6eX-qu-HJp" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSeuge:" id="fYA-bM-qx7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ziE-0x-aPV" userLabel="First Responder" sceneMemberID="firstResponder"/>

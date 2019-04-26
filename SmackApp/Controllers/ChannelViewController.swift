@@ -34,6 +34,14 @@ class ChannelViewController: UIViewController {
     }
     
     @IBAction func loginButtonPressed(_ sender: Any) {
-        performSegue(withIdentifier: TO_LOGIN, sender: nil)
+        if AuthService.instance.isLoggedIn {
+            // Show Profile page
+            let profile = ProfileViewController()
+            profile.modalPresentationStyle = .custom
+            present(profile, animated: true, completion: nil)
+            
+        } else {
+             performSegue(withIdentifier: TO_LOGIN, sender: nil)
+        }
     }
 }
