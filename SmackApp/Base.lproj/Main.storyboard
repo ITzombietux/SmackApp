@@ -411,6 +411,9 @@
                                         <real key="value" value="22"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="createAccountPressed:" destination="wM1-Uf-WmW" eventType="touchUpInside" id="L9W-DE-fSM"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="eMn-EF-HEf">
                                 <rect key="frame" x="137.5" y="299" width="100" height="100"/>
@@ -428,6 +431,9 @@
                                 <state key="normal" title="Choose avatar">
                                     <color key="titleColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="pichAvatarPressed:" destination="wM1-Uf-WmW" eventType="touchUpInside" id="Nvg-Og-4La"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7T6-vK-Y0Z">
                                 <rect key="frame" x="62" y="433" width="251" height="30"/>
@@ -439,6 +445,9 @@
                                 <state key="normal" title="Generate background color">
                                     <color key="titleColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="pickBGColorPressed:" destination="wM1-Uf-WmW" eventType="touchUpInside" id="f8A-4b-SVA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -462,6 +471,10 @@
                         <viewLayoutGuide key="safeArea" id="trq-No-yOA"/>
                     </view>
                     <connections>
+                        <outlet property="emailText" destination="edi-j7-Ldh" id="PXe-e5-sWJ"/>
+                        <outlet property="passwordText" destination="QTu-l1-PZl" id="4GT-om-N1w"/>
+                        <outlet property="userImage" destination="eMn-EF-HEf" id="IIm-uZ-qe8"/>
+                        <outlet property="usernameText" destination="GrN-71-gab" id="QRN-t9-Syd"/>
                         <segue destination="6eX-qu-HJp" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="2Ar-pn-jqB"/>
                     </connections>
                 </viewController>
