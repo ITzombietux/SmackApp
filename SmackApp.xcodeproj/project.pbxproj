@@ -12,7 +12,7 @@
 		932932AB227158D300AAFCE8 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932AA227158D300AAFCE8 /* ChannelViewController.swift */; };
 		932932B82271800A00AAFCE8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932B72271800900AAFCE8 /* GradientView.swift */; };
 		932932BB227193FD00AAFCE8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932BA227193FD00AAFCE8 /* Constants.swift */; };
-		932932BD22719B4E00AAFCE8 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932BC22719B4E00AAFCE8 /* RoundButton.swift */; };
+		932932BD22719B4E00AAFCE8 /* RoundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932BC22719B4E00AAFCE8 /* RoundViews.swift */; };
 		932932BF22719BA500AAFCE8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932BE22719BA500AAFCE8 /* LoginViewController.swift */; };
 		932932C12271B78900AAFCE8 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932C02271B78900AAFCE8 /* CreateAccountViewController.swift */; };
 		932932C42272913900AAFCE8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932C32272913900AAFCE8 /* AuthService.swift */; };
@@ -35,7 +35,7 @@
 		932932AA227158D300AAFCE8 /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		932932B72271800900AAFCE8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		932932BA227193FD00AAFCE8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		932932BC22719B4E00AAFCE8 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		932932BC22719B4E00AAFCE8 /* RoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViews.swift; sourceTree = "<group>"; };
 		932932BE22719BA500AAFCE8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		932932C02271B78900AAFCE8 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		932932C32272913900AAFCE8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				932932B72271800900AAFCE8 /* GradientView.swift */,
-				932932BC22719B4E00AAFCE8 /* RoundButton.swift */,
+				932932BC22719B4E00AAFCE8 /* RoundViews.swift */,
 				932932C92272DEF000AAFCE8 /* AvatarCell.swift */,
 			);
 			path = Views;
@@ -322,7 +322,7 @@
 				932932C12271B78900AAFCE8 /* CreateAccountViewController.swift in Sources */,
 				932932BF22719BA500AAFCE8 /* LoginViewController.swift in Sources */,
 				932932CA2272DEF000AAFCE8 /* AvatarCell.swift in Sources */,
-				932932BD22719B4E00AAFCE8 /* RoundButton.swift in Sources */,
+				932932BD22719B4E00AAFCE8 /* RoundViews.swift in Sources */,
 				939D216F2270479400474806 /* ViewController.swift in Sources */,
 				939D216D2270479400474806 /* AppDelegate.swift in Sources */,
 				932932C42272913900AAFCE8 /* AuthService.swift in Sources */,
