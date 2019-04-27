@@ -25,6 +25,11 @@ class ChatViewController: UIViewController {
                 NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CAHNCE, object: nil)
             }
         }
+        
+        MessageService.instance.findAllChannel { (success) in
+            
+        }
+      
     }
     
     

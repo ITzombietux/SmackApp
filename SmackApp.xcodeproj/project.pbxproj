@@ -21,6 +21,8 @@
 		932932CA2272DEF000AAFCE8 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932C92272DEF000AAFCE8 /* AvatarCell.swift */; };
 		932932CF2273052800AAFCE8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932CD2273052800AAFCE8 /* ProfileViewController.swift */; };
 		932932D02273052800AAFCE8 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932932CE2273052800AAFCE8 /* ProfileViewController.xib */; };
+		932932D3227423ED00AAFCE8 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932D2227423ED00AAFCE8 /* MessageService.swift */; };
+		932932D62274245000AAFCE8 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932D52274245000AAFCE8 /* Channel.swift */; };
 		939D216D2270479400474806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216C2270479400474806 /* AppDelegate.swift */; };
 		939D216F2270479400474806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216E2270479400474806 /* ViewController.swift */; };
 		939D21722270479400474806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D21702270479400474806 /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 		932932C92272DEF000AAFCE8 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		932932CD2273052800AAFCE8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		932932CE2273052800AAFCE8 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		932932D2227423ED00AAFCE8 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		932932D52274245000AAFCE8 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		939D21692270479400474806 /* SmackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939D216C2270479400474806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		939D216E2270479400474806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 			children = (
 				932932C32272913900AAFCE8 /* AuthService.swift */,
 				932932C52272C8D500AAFCE8 /* UserDataService.swift */,
+				932932D2227423ED00AAFCE8 /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -137,6 +142,14 @@
 				932932CE2273052800AAFCE8 /* ProfileViewController.xib */,
 			);
 			path = "Storyboard and Screens";
+			sourceTree = "<group>";
+		};
+		932932D42274241700AAFCE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				932932D52274245000AAFCE8 /* Channel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		939D21602270479400474806 = {
@@ -165,6 +178,7 @@
 				932932D12273054D00AAFCE8 /* Storyboard and Screens */,
 				932932C22272911A00AAFCE8 /* Services */,
 				932932B9227193E600AAFCE8 /* Utillities */,
+				932932D42274241700AAFCE8 /* Models */,
 				932932B622717FFA00AAFCE8 /* Views */,
 				932932A7227158B600AAFCE8 /* Controllers */,
 				939D216C2270479400474806 /* AppDelegate.swift */,
@@ -338,7 +352,9 @@
 				932932BF22719BA500AAFCE8 /* LoginViewController.swift in Sources */,
 				932932CA2272DEF000AAFCE8 /* AvatarCell.swift in Sources */,
 				932932BD22719B4E00AAFCE8 /* RoundViews.swift in Sources */,
+				932932D62274245000AAFCE8 /* Channel.swift in Sources */,
 				939D216F2270479400474806 /* ViewController.swift in Sources */,
+				932932D3227423ED00AAFCE8 /* MessageService.swift in Sources */,
 				939D216D2270479400474806 /* AppDelegate.swift in Sources */,
 				932932C42272913900AAFCE8 /* AuthService.swift in Sources */,
 				932932C62272C8D500AAFCE8 /* UserDataService.swift in Sources */,
