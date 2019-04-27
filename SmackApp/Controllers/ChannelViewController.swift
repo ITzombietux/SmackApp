@@ -53,6 +53,12 @@ class ChannelViewController: UIViewController {
              performSegue(withIdentifier: TO_LOGIN, sender: nil)
         }
     }
+    
+    @IBAction func addChannelPressed(_ sender: UIButton) {
+        let addChannel = AddChannelViewController()
+        addChannel.modalPresentationStyle = .custom
+        present(addChannel, animated: true, completion: nil)
+    }
 }
 
 extension ChannelViewController: UITableViewDelegate, UITableViewDataSource {
