@@ -21,13 +21,7 @@ class MessageService {
             
             if response.result.error == nil {
                 guard let data = response.data else { return }
-                
-//                do {
-//                    self.channels = try JSONDecoder().decode([Channel].self, from: data)
-//                } catch let error {
-//                    debugPrint(error as Any)
-//                }
-//                print(self.channels)
+ 
                 if let json = JSON(data: data).array {
                     for item in json {
                         let name = item["name"].stringValue
