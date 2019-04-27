@@ -23,6 +23,7 @@
 		932932D02273052800AAFCE8 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932932CE2273052800AAFCE8 /* ProfileViewController.xib */; };
 		932932D3227423ED00AAFCE8 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932D2227423ED00AAFCE8 /* MessageService.swift */; };
 		932932D62274245000AAFCE8 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932D52274245000AAFCE8 /* Channel.swift */; };
+		932932D822742E9800AAFCE8 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932D722742E9800AAFCE8 /* ChannelCell.swift */; };
 		939D216D2270479400474806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216C2270479400474806 /* AppDelegate.swift */; };
 		939D216F2270479400474806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216E2270479400474806 /* ViewController.swift */; };
 		939D21722270479400474806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D21702270479400474806 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		932932CE2273052800AAFCE8 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		932932D2227423ED00AAFCE8 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		932932D52274245000AAFCE8 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		932932D722742E9800AAFCE8 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		939D21692270479400474806 /* SmackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939D216C2270479400474806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		939D216E2270479400474806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				932932B72271800900AAFCE8 /* GradientView.swift */,
 				932932BC22719B4E00AAFCE8 /* RoundViews.swift */,
 				932932C92272DEF000AAFCE8 /* AvatarCell.swift */,
+				932932D722742E9800AAFCE8 /* ChannelCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				932932C12271B78900AAFCE8 /* CreateAccountViewController.swift in Sources */,
+				932932D822742E9800AAFCE8 /* ChannelCell.swift in Sources */,
 				932932BF22719BA500AAFCE8 /* LoginViewController.swift in Sources */,
 				932932CA2272DEF000AAFCE8 /* AvatarCell.swift in Sources */,
 				932932BD22719B4E00AAFCE8 /* RoundViews.swift in Sources */,
