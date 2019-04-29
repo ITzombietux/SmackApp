@@ -27,6 +27,7 @@
 		932932DB2274518200AAFCE8 /* AddChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932D92274518200AAFCE8 /* AddChannelViewController.swift */; };
 		932932DC2274518200AAFCE8 /* AddChannelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932932DA2274518200AAFCE8 /* AddChannelViewController.xib */; };
 		932932DE22745CEA00AAFCE8 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932DD22745CEA00AAFCE8 /* SocketService.swift */; };
+		932932E02276B8EF00AAFCE8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932DF2276B8EF00AAFCE8 /* Message.swift */; };
 		939D216D2270479400474806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216C2270479400474806 /* AppDelegate.swift */; };
 		939D216F2270479400474806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216E2270479400474806 /* ViewController.swift */; };
 		939D21722270479400474806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D21702270479400474806 /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 		932932D92274518200AAFCE8 /* AddChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelViewController.swift; sourceTree = "<group>"; };
 		932932DA2274518200AAFCE8 /* AddChannelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelViewController.xib; sourceTree = "<group>"; };
 		932932DD22745CEA00AAFCE8 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		932932DF2276B8EF00AAFCE8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		939D21692270479400474806 /* SmackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939D216C2270479400474806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		939D216E2270479400474806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				932932D52274245000AAFCE8 /* Channel.swift */,
+				932932DF2276B8EF00AAFCE8 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				932932CA2272DEF000AAFCE8 /* AvatarCell.swift in Sources */,
 				932932BD22719B4E00AAFCE8 /* RoundViews.swift in Sources */,
 				932932D62274245000AAFCE8 /* Channel.swift in Sources */,
+				932932E02276B8EF00AAFCE8 /* Message.swift in Sources */,
 				939D216F2270479400474806 /* ViewController.swift in Sources */,
 				932932D3227423ED00AAFCE8 /* MessageService.swift in Sources */,
 				939D216D2270479400474806 /* AppDelegate.swift in Sources */,
