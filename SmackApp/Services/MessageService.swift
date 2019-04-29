@@ -61,7 +61,7 @@ class MessageService {
                         let timeStamp = item["timeStamp"].stringValue
                         
                         let message = Message(message: messageBody, userName: userName
-                            , channelId: channelId, userAvater: userAvatar, userAvatarColor: userAvatarColor, id: id, timeStamp: timeStamp)
+                            , channelId: channelId, userAvatar: userAvatar, userAvatarColor: userAvatarColor, id: id, timeStamp: timeStamp)
                         self.messages.append(message)
                         print(self.messages)
                         completion(true)
