@@ -12,9 +12,15 @@ class ChatViewController: UIViewController {
 
     @IBOutlet weak var menuButton: UIButton!
     @IBOutlet weak var channelNameLabel: UILabel!
+    @IBOutlet weak var messageTextBox: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.bindToKeyboard()
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(ChatViewController.handleTap))
+        view.addGestureRecognizer(tap)
 
         menuButton.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         
@@ -29,10 +35,6 @@ class ChatViewController: UIViewController {
                 NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CAHNCE, object: nil)
             }
         }
-        
-//        MessageService.instance.findAllChannel { (success) in
-//
-//        }
     }
     
     @objc func userDataDidChange(_ notif: Notification) {
@@ -47,6 +49,10 @@ class ChatViewController: UIViewController {
     
     @objc func channelSelected(_ notif: Notification) {
         
+    }
+    
+    @objc func handleTap() {
+        view.endEditing(true)
     }
     
     func updateWithChannel() {
@@ -73,6 +79,20 @@ class ChatViewController: UIViewController {
         guard let channelId = MessageService.instance.selectedChannel?.id else { return }
         MessageService.instance.findAllMessageForChannel(channelId: channelId) { (success) in
             
+        }
+    }
+    
+    @IBAction func sendMessagePressed(_ sender: Any) {
+        if AuthService.instance.isLoggedIn {
+            guard let channelId = MessageService.instance.selectedChannel?.id else { return }
+            guard let message = messageTextBox.text else { return }
+            
+            SocketService.instance.addMessage(messageBody: message, userId: UserDataService.instance.id, channelId: channelId) { (success) in
+                if success {
+                    self.messageTextBox.text = ""
+                    self.messageTextBox.resignFirstResponder()
+                }
+            }
         }
     }
 }
