@@ -189,6 +189,7 @@
                         <viewLayoutGuide key="safeArea" id="PgD-Tn-5Yu"/>
                     </view>
                     <connections>
+                        <outlet property="channelNameLabel" destination="CNl-Gg-eGA" id="kYZ-rD-oTh"/>
                         <outlet property="menuButton" destination="xpf-HI-lJH" id="DBh-vU-ecW"/>
                     </connections>
                 </viewController>
