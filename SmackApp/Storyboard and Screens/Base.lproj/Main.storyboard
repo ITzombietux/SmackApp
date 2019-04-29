@@ -194,6 +194,7 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="messageBoxEditing:" destination="ReA-KE-rvS" eventType="editingChanged" id="PEY-Sq-GCl"/>
                                     <action selector="sendMessagePressed:" destination="ReA-KE-rvS" eventType="touchUpInside" id="cdQ-WO-gBa"/>
                                 </connections>
                             </button>
@@ -208,7 +209,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5xH-Fv-dMK" customClass="CircleImage" customModule="Smack" customModuleProvider="target">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5xH-Fv-dMK" customClass="RoundImage" customModule="SmackApp" customModuleProvider="target">
                                                     <rect key="frame" x="15" y="11" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="T6B-v8-U1l"/>
@@ -279,6 +280,7 @@
                         <outlet property="channelNameLabel" destination="CNl-Gg-eGA" id="kYZ-rD-oTh"/>
                         <outlet property="menuButton" destination="xpf-HI-lJH" id="DBh-vU-ecW"/>
                         <outlet property="messageTextBox" destination="AiE-Jt-vJO" id="Wdg-hz-jYh"/>
+                        <outlet property="sendButton" destination="cII-ic-feI" id="Q1X-Pr-xWZ"/>
                         <outlet property="tableView" destination="8cJ-3f-MIj" id="9aV-00-rxd"/>
                     </connections>
                 </viewController>
