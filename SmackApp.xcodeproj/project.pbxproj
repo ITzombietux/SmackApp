@@ -29,8 +29,8 @@
 		932932DE22745CEA00AAFCE8 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932DD22745CEA00AAFCE8 /* SocketService.swift */; };
 		932932E02276B8EF00AAFCE8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932DF2276B8EF00AAFCE8 /* Message.swift */; };
 		932932E22276CC1B00AAFCE8 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932E12276CC1B00AAFCE8 /* KeyboardBoundView.swift */; };
+		932932E42276D76900AAFCE8 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932932E32276D76900AAFCE8 /* MessageCell.swift */; };
 		939D216D2270479400474806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216C2270479400474806 /* AppDelegate.swift */; };
-		939D216F2270479400474806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D216E2270479400474806 /* ViewController.swift */; };
 		939D21722270479400474806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D21702270479400474806 /* Main.storyboard */; };
 		939D21742270479600474806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939D21732270479600474806 /* Assets.xcassets */; };
 		939D21772270479600474806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D21752270479600474806 /* LaunchScreen.storyboard */; };
@@ -62,9 +62,9 @@
 		932932DD22745CEA00AAFCE8 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		932932DF2276B8EF00AAFCE8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		932932E12276CC1B00AAFCE8 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		932932E32276D76900AAFCE8 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		939D21692270479400474806 /* SmackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939D216C2270479400474806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		939D216E2270479400474806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		939D21712270479400474806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		939D21732270479600474806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		939D21762270479600474806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -127,6 +127,7 @@
 				932932C92272DEF000AAFCE8 /* AvatarCell.swift */,
 				932932D722742E9800AAFCE8 /* ChannelCell.swift */,
 				932932E12276CC1B00AAFCE8 /* KeyboardBoundView.swift */,
+				932932E32276D76900AAFCE8 /* MessageCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,7 +201,6 @@
 				932932B622717FFA00AAFCE8 /* Views */,
 				932932A7227158B600AAFCE8 /* Controllers */,
 				939D216C2270479400474806 /* AppDelegate.swift */,
-				939D216E2270479400474806 /* ViewController.swift */,
 				939D21732270479600474806 /* Assets.xcassets */,
 				939D21782270479600474806 /* Info.plist */,
 			);
@@ -373,9 +373,9 @@
 				932932BF22719BA500AAFCE8 /* LoginViewController.swift in Sources */,
 				932932CA2272DEF000AAFCE8 /* AvatarCell.swift in Sources */,
 				932932BD22719B4E00AAFCE8 /* RoundViews.swift in Sources */,
+				932932E42276D76900AAFCE8 /* MessageCell.swift in Sources */,
 				932932D62274245000AAFCE8 /* Channel.swift in Sources */,
 				932932E02276B8EF00AAFCE8 /* Message.swift in Sources */,
-				939D216F2270479400474806 /* ViewController.swift in Sources */,
 				932932D3227423ED00AAFCE8 /* MessageService.swift in Sources */,
 				939D216D2270479400474806 /* AppDelegate.swift in Sources */,
 				932932C42272913900AAFCE8 /* AuthService.swift in Sources */,
